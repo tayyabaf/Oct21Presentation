@@ -15,4 +15,9 @@ public class MercedesMiniVan implements MiniVan {
     public void getSpeed() {
         System.out.println("average speed is 45 MPH");
     }
+
+    @Override
+    public String toString() {
+        return "MercedesMiniVan";
+    }
 }

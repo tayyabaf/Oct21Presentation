@@ -10,4 +10,9 @@ public class MercedesCar implements Car {
     public void getSpeed() {
         System.out.println("Avg speed is 60 MPH");
     }
+
+    @Override
+    public String toString() {
+        return "MercedesCar";
+    }
 }
